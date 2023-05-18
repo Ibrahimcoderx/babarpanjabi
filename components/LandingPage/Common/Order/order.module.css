@@ -1,0 +1,397 @@
+/* OrderConfirmFrom */
+
+.d_flex{
+    display: flex;
+    align-items: center;
+}
+
+.OrderConfirmFrom {
+    padding: 100px 0px !important;
+    border-radius: 10px;
+}
+
+.OrderConfirmFrom h2 {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+.OrderConfirmLeft {
+    width: 90%;
+
+}
+
+.OrderConfirmLeft .CustomeInput {
+    margin-top: 20px;
+}
+
+.OrderConfirmLeft .CustomeInput input {
+    border: 1px solid #d1d5db;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.OrderConfirmLeft .Payment {
+    background: #fff;
+    box-shadow: 0px -68px 80px rgb(0 0 0 / 3%), 0px 35px 46.8519px rgb(0 0 0 / 2%),
+        0px -3px 25.4815px rgb(0 0 0 / 2%), 0px 20px 13px rgb(0 0 0 / 2%),
+        0px 8.14815px 6.51852px rgb(0 0 0 / 1%),
+        0px 1.85185px 3.14815px rgb(0 0 0 / 1%);
+    border-radius: 15px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.OrderConfirmLeft .Payment h3 {
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput {
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input {
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput label {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    font-style: italic;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input {
+    position: absolute;
+    opacity: 0;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input+label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: #b8b8b8;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input:hover+label:before {
+    background: #f35429;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input:focus+label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input:checked+label:before {
+    background: #f35429;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input:disabled+label {
+    color: #b8b8b8;
+    cursor: auto;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input:disabled+label:before {
+    box-shadow: none;
+    background: #ddd;
+}
+
+.OrderConfirmLeft .Payment .CustomeInput input:checked+label:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white,
+        4px -6px 0 white, 4px -8px 0 white;
+    transform: rotate(45deg);
+}
+
+.OrderConfirmLeft .Payment .ArrowBg {
+    background: #fceef1;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+    padding: 10px 30px;
+}
+
+.OrderConfirmLeft .Payment .ArrowBg::after {
+    position: absolute;
+    content: "";
+    top: -15px;
+    left: 20%;
+    width: 30px;
+    height: 15px;
+    border-bottom: solid 15px #fceef1;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+}
+
+.OrderConfirmLeft .Payment .ArrowBg p {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-size: 18px !important;
+}
+
+/* OrderConfirmRight */
+.OrderConfirmRight ul {
+    margin-top: 30px !important;
+    border-radius: 15px;
+    border: 1px solid #d1d5db;
+}
+
+.OrderConfirmRight ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.OrderConfirmRight ul li:last-child {
+    border-bottom: 0;
+}
+
+.OrderConfirmRight ul h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.OrderConfirmRight ul h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #332729;
+}
+
+.OrderConfirmRight ul h5 .checkbox {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.OrderConfirmRight ul h5 .checkbox input {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.OrderConfirmRight ul h5 .checkbox:last-child {
+    margin-bottom: 0;
+}
+
+.OrderConfirmRight ul h5 label {
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.OrderConfirmRight ul .img {
+    width: 80px;
+}
+
+.OrderConfirmRight ul .img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.OrderConfirmRight ul .left {
+    width: 50%;
+}
+
+.OrderConfirmRight ul .left p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+.OrderConfirmRight ul .right {
+    width: 45%;
+    justify-content: space-between;
+}
+
+.OrderConfirmRight ul .right input {
+    width: 80px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.OrderConfirmRight button {
+    width: 100%;
+    background: #FF466D;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.OrderConfirmRight button svg {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+/* LandingThree */
+.LandingThree .OrderConfirmFrom {
+    background: #fff5cd;
+    padding: 80px 0;
+}
+
+.LandingThree .OrderConfirmFrom h3 {
+    text-align: left;
+}
+
+.LandingThree .OrderConfirmFrom button {
+    background: #fecb02;
+}
+
+.LandingThree .OrderConfirmFrom button:hover {
+    background: #092e67;
+    color: #fff;
+}
+
+/* LandingFour */
+
+.LandingFour .OrderConfirmFrom {
+    background: #071c1f;
+    padding: 80px 0;
+}
+
+.LandingFour .OrderConfirmFrom h3 {
+    color: var(--white_color);
+}
+
+.LandingFour .OrderConfirmLeft .Payment h3 {
+    color: var(--header_color);
+}
+
+.LandingFour .OrderConfirmRight ul h4,
+.LandingFour .OrderConfirmRight p,
+.LandingFour .OrderConfirmRight ul h5 {
+    color: var(--white_color);
+}
+
+.OrderConfirmRight ul .left p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+#form_part button {
+    border: none;
+}
+
+@media (max-width: 1339px) {
+
+    .OrderConfirmRight ul h5 {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .OrderConfirmRight ul .right input {
+        width: 70px;
+        padding: 5px 10px;
+    }
+
+    .OrderConfirmLeft .Payment h3 {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .OrderConfirmRight ul h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .OrderConfirmLeft .Payment .CustomeInput label {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------
+        Media
+    ------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------*/
+@media (max-width: 900px) {
+
+    .OrderConfirmRight {
+        margin-top: 50px;
+    }
+
+    .OrderConfirmLeft {
+        width: 100%;
+    }
+
+    .OrderConfirmLeft .Payment {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .OrderConfirmFrom {
+
+        padding: 50px 0px !important;
+
+    }
+
+    .OrderConfirmRight ul .left {
+        display: block;
+    }
+
+    .OrderConfirmRight ul .img img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .OrderConfirmRight ul .left p {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .OrderConfirmRight ul .right {
+        display: block;
+        text-align: right;
+    }
+
+    .OrderConfirmRight ul .right input {
+        width: 80%;
+    }
+
+    .OrderConfirmRight ul h5 {
+        margin-top: 10px;
+    }
+
+    .OrderConfirmRight ul li {
+        padding: 15px 20px;
+    }
+
+}

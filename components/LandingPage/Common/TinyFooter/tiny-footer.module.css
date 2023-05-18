@@ -1,0 +1,17 @@
+/* Tiny Footer */
+.tinyFooter p a {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #42210B;
+    padding: 0 5px;
+}
+
+.tinyFooter p {
+    line-height: 40px;
+    text-align: center;
+}
+
+.tinyFooter {
+    margin-top: 50px;
+}

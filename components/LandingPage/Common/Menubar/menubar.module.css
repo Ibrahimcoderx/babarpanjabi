@@ -1,0 +1,43 @@
+/* ------------------------------------------------------------------------------------------- 
+Menubar
+------------------------------------------------------------------------------------------- */
+
+
+.MenubarContent .Logo{
+    text-align: center;
+}
+
+.MenubarContent .LogoLeft{
+    text-align: left;
+}
+
+.MenubarContent .Logo img{
+    height: 80px;
+    width: auto;
+}
+
+/* Media */
+@media (max-width: 1023px) {
+
+    .MenubarContent .Logo img{
+        height: 60px;
+    }
+  
+    .MenubarContent img{
+        height: 60px;
+    }
+  
+}
+
+
+@media (max-width: 500px) {
+
+    .MenubarContent .Logo img{
+        height: 50px;
+    }
+  
+    .MenubarContent img{
+        height: 50px;
+    }
+  
+}

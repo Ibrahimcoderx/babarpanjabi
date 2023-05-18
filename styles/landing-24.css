@@ -1,0 +1,1204 @@
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.Landing__24 {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  list-style-type: none;
+  overflow-x: hidden;
+}
+
+.Landing__24 ul{
+  padding: 0;
+  list-style: none;
+}
+
+.Landing__24 h1{
+    font-size: 49px;
+    line-height: 67px;
+    color:#FFF;
+    font-weight: 900;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+
+.Landing__24 h2{
+  font-size: 40px;
+  line-height: 60px;
+  color:#42210B;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Landing__24 p{
+    color:#360A31;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+         
+.Landing__24 .bg {
+    transition: 0.5s;
+    display: block;
+    line-height: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.Landing__24 a.bg{
+    position: relative;
+    padding: 24px 120px;
+    color:#42210B; 
+    background-image: linear-gradient(to right,#FFE2A0 0%,#FFCB05 51%, #FFE2A0 100%);
+    background-size: 180% auto;
+    display: inline-block;
+    transition: .2s;
+    font-weight: 600;
+    border-radius: 100px;
+    font-size: 36px;
+    line-height: 55px;
+    border-bottom: 10px solid #FE8D0E;
+  }
+
+
+.Landing__24 a.bg svg{
+    font-size: 40px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #42210B; 
+}
+
+
+.Landing__24 a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.Landing__24 a.bg:hover svg {
+    color: #fff;      
+}
+ 
+
+.Landing__24__section_gaps{
+    margin-top: 100px;
+}
+
+
+/* ================================================================================================
+          Banner
+===================================================================================================*/
+
+.Landing__24__bg_div{
+  background-image: url('../public/images/landing-24/bg.png');
+  padding: 50px 0px 121px 0px;
+  background-size:cover;
+}
+
+
+.Landing__24 h1, .Landing__24__Order2Abs h4{
+ 
+background-image: linear-gradient(
+  -225deg,
+  #231557 0%,
+  #44107a 29%,
+  #ff1361 67%,
+  #FFBF0B 100%
+);
+background-size: auto auto;
+background-clip: border-box;
+background-size: 200% auto;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: text35489mhb 2s linear infinite;
+
+}
+
+@keyframes text35489mhb {
+to {
+  background-position: 200% center;
+}
+}
+
+
+.Landing__24__BannerTxt{
+  position: relative;
+  margin-top: 131px;
+}
+
+.Landing__24__BannerTxtAbs1{
+  position: absolute;
+  right: 0;
+  top:-50px;
+}
+
+.Landing__24__BannerTxtAbs2{
+  position: absolute;
+  top:0px;
+  height: 82px;
+}
+
+.Landing__24__BannerTxt h6{
+  font-size: 24px;
+  line-height: 41px;
+  color:#FFF;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  z-index: 2;
+}
+
+.Landing__24__BannerTxt h3{
+  font-size: 50px;
+  line-height: 77px;
+  color:#FFF;
+  padding-bottom: 80px;
+}
+.Landing__24__BannerTxt h3 span{
+  font-size: 32px;
+  line-height: 49px;
+  color:#FFF;
+  padding-left: 40px;
+}
+
+.Landing__24__BannerTxtRel{
+position: relative;
+}
+
+.Landing__24__BannerTxtAbs7{
+  position: absolute;
+  top:0px;
+  left:-20px;
+  height: 87px;
+}
+
+/* Col-2 */
+
+.Landing__24__Col2{
+position: relative;
+
+}
+.Landing__24__BannerTxtAbs4{
+position: absolute;
+width: 140%;
+padding-top: 40px;
+}
+
+
+/* ================================================================================================
+          Size
+===================================================================================================*/
+
+.Landing__24__SizeImgdiv{
+  position: relative;
+  
+}
+.Landing__24 .Landing__24__SizeImgdivAbs{
+  position: absolute;
+  width: 190%;
+  left:-40px;
+}
+
+.Landing__24__sizeTxtBox {
+  text-align: center;
+  padding-left: 150px;
+}
+
+.Landing__24__sizeTxtBox h2{
+  font-size: 40px;
+  line-height: 60px;
+  color:#42210B;
+  margin-bottom: 24px;
+}
+
+.Landing__24__sizeTxtBox span{
+  font-size: 24px; 
+  line-height: 32px;
+  color:#A15F19;
+  padding: 16px 33px;
+  display: inline;
+  margin-left: 18px;
+  border: 1px solid #FFCE1C;
+  border-radius: 100px;
+}
+
+.Landing__24__sizeTxtBox span:hover{
+  border: 1px solid #FFCE1C;
+  background-color:#FFCE1C;
+}
+
+.Landing__24__SizeUlDiv{
+background-image: url('../public/images/landing-24/img5.png');
+background-size: cover;
+padding: 122px 0px 131px 270px;
+margin-top: 81px;
+}
+
+.Landing__24__SizeUlDiv h4{
+font-size: 20px;
+line-height: 26px;
+color:#A15F19;
+padding-left: 15px;
+display: inline;
+font-weight: 600;
+}
+
+.Landing__24__SizeUlDiv ul li{
+margin-top: 24px;
+}
+
+.Landing__24__SizeRel2{
+position: relative ;
+}
+
+.Landing__24__SizeAbs1{
+position: absolute;
+left:100px;
+bottom: -270px;
+z-index: -1;
+}
+
+.Landing__24__SizeAbs2{
+position: absolute;
+right:100px;
+bottom: -270px;
+z-index: -1;
+}
+
+
+/* ================================================================================================
+          Order Template One
+===================================================================================================*/
+
+.Landing__24__OrderTemplateOne{
+
+padding: 0;
+
+}
+
+.Landing__24 .Landing__24__Order1 {
+display:flex ;
+justify-content: center;
+align-items: center;
+position: relative;
+text-align: center;
+}
+
+.Landing__24 .Landing__24__Order1 img{
+height: 564px;
+
+}
+
+.Landing__24__Order1Abs{
+  position: absolute;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.Landing__24__Order1Abs h4{
+  font-size: 51px;
+  line-height: 69px;
+  color:#360A31;
+  font-weight: 900;
+}
+
+.Landing__24__Order1Abs h5{
+  font-size: 32px;
+  line-height: 42px;
+  color:#A15F19;
+  margin: 20px 0px;
+}
+
+.Landing__24__Order1Abs h6{
+  font-size: 24px;
+  line-height: 33px;
+  color:#2E0828;
+  font-weight: 600;
+}
+
+
+/* ================================================================================================
+          CardImg
+===================================================================================================*/
+.Landing__24__CardImg {
+    padding: 0 5%;
+}
+
+.Landing__24__CardImg img{
+    width: 100%;
+}
+
+.Landing__24__CardImg2, .Landing__24__CardImg4{
+   margin-top: 100px;
+}
+
+
+/* ================================================================================================
+          Order2
+===================================================================================================*/
+.Landing__24__Order2bg{
+  background-image: url('../public/images/landing-24/img14.png');
+  background-size: cover;
+  padding: 60px 320px 300px 320px;
+  margin-top: 81px;
+}
+
+.Landing__24__ConPad{
+  padding: 0;
+}
+
+.Landing__24__Order2bg h4{
+   font-size: 40px;
+   line-height: 60px;
+   color:#FFFFFF;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+
+/* Order2 */
+
+.Landing__24 .Landing__24__Order2 {
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+
+.Landing__24__Order2Abs{
+    text-align: center;
+}
+
+.Landing__24__Order2Abs h4{
+    font-size: 51px;
+    line-height: 69px;
+    color:#FFCB05;
+    font-weight: 900;
+    margin: 30px 0px;
+}
+
+.Landing__24__Order2Abs h5{
+    font-size: 32px;
+    line-height: 42px;
+    color:#FFFFFF;
+
+}
+
+/* ================================================================================================
+          Video
+===================================================================================================*/
+
+.Landing__24__VideoTxt{
+  padding: 0 10%;
+  text-align: center;
+}
+
+.Landing__24__VideoTxt p{
+ padding-bottom: 50px;
+
+}
+
+
+
+
+/* ================================================================================================
+          Order3
+===================================================================================================*/
+
+.Landing__24__Order3Div{
+  padding: 0 5%;
+}
+.Landing__24__Order3Div h2{
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.Landing__24__Order3Img{
+  width: 100%;
+}
+
+.Landing__24__Order3Col2{
+  padding-left: 40px;
+}
+
+/* ================================================================================================
+         Shipping Icon
+===================================================================================================*/
+
+.Landing__24__ShippingDiv p{
+  color:#947734 !important;
+  padding-top: 10px;
+}
+
+.Landing__24__ShippingDiv {
+  padding: 50px;
+}
+
+/* ================================================================================================
+         place in Order
+===================================================================================================*/
+
+.Landing__24 .order_OrderConfirmFrom__ThtXd {
+  padding: 100px 50px !important;
+  border-radius: 10px;
+}
+
+.Landing__24__PlaseInOdr{
+  background:#976291;
+  position: relative;
+  border-radius: 10px;
+}
+
+.Landing__24 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 {
+  background:linear-gradient(to bottom, #FFE2A0,#FFCB05);
+}
+
+.Landing__24 .order_OrderConfirmRight__DSDPT button {
+  background:linear-gradient(to bottom, #FFE2A0,#FFCB05);
+}
+
+.Landing__24 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0 p {
+  color: #ffffff;
+}
+
+.Landing__24 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_ArrowBg__Rpfa0::after {
+border-bottom:15px solid  #FFCB05;
+} 
+
+
+.Landing__24 .order_OrderConfirmLeft__uVx3z .order_Payment__SoQ0N .order_CustomeInput__NQVsd input:checked+label:before {
+  background:linear-gradient(to bottom, #FFE2A0,#FFCB05);
+}
+
+.Landing__24 .order_OrderConfirmFrom__ThtXd h2 {
+ color:#FFF;
+}
+
+/* ================================================================================================
+          Footer
+===================================================================================================*/
+
+.Landing__24__FooterDiv{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.Landing__24__Hr{
+width: 100px;
+border-bottom: 1px solid #FFD54C;
+margin: 13px 0px;
+}
+
+.Landing__24__FooterItem h4{
+font-size: 24px;
+line-height: 31px;
+color:#360A31;
+font-weight: 600;
+}
+
+.Landing__24__FooterItem a{
+font-size: 18px;
+line-height: 23px;
+color:#360A31;
+}
+
+.Landing__24__FooterItem li{
+margin-top: 15px;
+}
+
+.Landing__24__FooterItem2{
+padding: 33px 33px 71px 33px;
+background:linear-gradient(to bottom, #FFE2A0,#FFCB05);
+border-radius: 0 0 150px 150px;
+margin-top: -100px;
+}
+
+
+.Landing__24__FooterItem2 img{
+  margin-bottom: 50px;
+}
+
+.Landing__24__FooterItem h5{
+ background:linear-gradient(to bottom, #FFE2A0,#FFCB05);
+ background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 15px;
+font-size: 30px;
+font-weight: 900;
+}
+
+
+/* ================================================================================================
+          Media Quary
+===================================================================================================*/
+
+ 
+@media (max-width: 1641px) {
+
+.Landing__24__BannerTxt h6 {
+  font-size: 20px;
+  top:13px;
+}
+
+.Landing__24__BannerTxt {
+position: relative;
+margin-top: 42px;
+}
+
+.Landing__24__BannerTxtAbs2 {
+position: absolute;
+top: 0px;
+height: 64px;
+}
+
+.Landing__24 h1 {
+font-size: 44px;
+line-height: 54px;
+padding-top: 93px;
+padding-bottom: 40px;
+}
+
+.Landing__24__BannerTxt h3 {
+font-size: 30px;
+padding-bottom: 29px;
+}
+
+.Landing__24__BannerTxt h3 span {
+font-size: 24px;
+line-height: 38px;
+}
+
+.Landing__24__BannerTxtAbs3 {
+position: absolute;
+top: 303px;
+left: -10px;
+height: 53px;
+}
+
+.Landing__24 a.bg {
+position: relative;
+padding: 10px 100px;
+font-size: 24px;
+line-height: 55px;
+border-bottom: 10px solid #FE8D0E;
+}
+
+.Landing__24__BannerTxtAbs4 {
+position: absolute;
+width: 100%;
+padding-top: 20px;
+}
+
+.Landing__24__BannerTxtAbs1{
+height: 82px;
+}
+.Landing__24 a.bg svg {
+font-size: 28px;
+margin-top: -5px;
+margin-right: 10px;
+color: #42210B;
+}
+
+.Landing__24__bg_div {
+padding: 50px 0px 110px 0px;
+background-size: cover;
+}
+
+.Landing__24__BannerTxtAbs7{
+position: absolute;
+top:0px;
+left:-20px;
+height: 67px;
+}
+
+
+}
+
+@media (max-width: 1400px) {
+
+.Landing__24__BannerTxt h6 {
+  font-size: 20px;
+  top:13px;
+}
+
+.Landing__24__BannerTxt {
+position: relative;
+margin-top: 42px;
+}
+
+.Landing__24__BannerTxtAbs2 {
+position: absolute;
+top: 0px;
+height: 64px;
+}
+
+.Landing__24 h1 {
+font-size: 40px;
+line-height: 54px;
+padding-top: 93px;
+padding-bottom: 0px;
+}
+
+.Landing__24__BannerTxt h3 {
+font-size: 30px;
+padding-bottom: 19px;
+}
+
+.Landing__24__BannerTxt h3 span {
+font-size: 24px;
+line-height: 38px;
+}
+
+.Landing__24__BannerTxtAbs3 {
+position: absolute;
+top: 269px;
+left: -10px;
+height: 53px;
+}
+
+.Landing__24 a.bg {
+position: relative;
+padding: 10px 100px;
+font-size: 24px;
+line-height: 55px;
+border-bottom: 10px solid #FE8D0E;
+}
+
+.Landing__24__BannerTxtAbs4 {
+position: absolute;
+width: 100%;
+padding-top: 20px;
+}
+
+.Landing__24__BannerTxtAbs1{
+height: 82px;
+}
+.Landing__24 a.bg svg {
+font-size: 28px;
+margin-top: -5px;
+margin-right: 10px;
+color: #42210B;
+}
+
+.Landing__24__bg_div {
+padding: 50px 0px 73px 0px;
+background-size: cover;
+}
+
+.Landing__24__sizeTxtBox h2 {
+font-size: 35px;
+}
+
+.Landing__24 h2 {
+font-size: 33px;
+line-height: 48px;
+}
+
+.Landing__24__sizeTxtBox span {
+font-size: 20px;
+line-height: 32px;
+padding: 10px 24px;
+}
+
+.Landing__24__SizeUlDiv {
+background-size: cover;
+padding: 73px 0px 133px 274px;
+margin-top: 81px;
+}
+
+.Landing__24__SizeAbs1 {
+position: absolute;
+left: 100px;
+bottom: -241px;
+z-index: -1;
+}
+
+.Landing__24__SizeAbs2 {
+position: absolute;
+right: 100px;
+bottom: -249px;
+z-index: -1;
+}
+
+.Landing__24__Order1Abs h4 {
+font-size: 40px;
+line-height: 57px;
+color: #360A31;
+font-weight: 900;
+}
+
+.Landing__24__Order1Abs h5 {
+font-size: 28px;
+line-height: 30px;
+color: #A15F19;
+margin: 20px 0px;
+}
+
+.Landing__24__Order1Abs h6 {
+font-size: 20px;
+line-height: 26px;
+color: #2E0828;
+font-weight: 600;
+}
+
+.Landing__24__Order2Abs h4 {
+font-size: 40px;
+line-height: 32px;
+margin: 30px 0px;
+}
+
+.Landing__24__Order2Abs h5 {
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+}
+
+.Landing__24 p {
+color: #360A31;
+font-size: 20px;
+line-height: 34px;
+}
+
+.Landing__24__Order2bg h4 {
+font-size: 40px;
+line-height: 52px;
+}
+
+.Landing__24__Order2bg {
+background-size: cover;
+padding: 60px 150px 52px 150px;
+margin-top: 81px;
+}
+
+
+.Landing__24__Order2bg h4 {
+margin-bottom: 49px;
+}
+
+.Landing__24__Order2Abs h4 {
+font-size: 40px;
+line-height: 32px;
+margin: 22px 0px;
+}
+
+}
+
+
+@media (max-width: 1280px) {
+
+.Landing__24 h1 {
+  font-size: 35px;
+  line-height: 54px;
+  padding-top: 93px;
+  padding-bottom: 0px;
+}
+
+.Landing__24 h2 {
+font-size: 28px;
+line-height: 48px;
+}
+
+.Landing__24__SizeUlDiv h2{
+font-size: 24px;
+}
+
+.Landing__24__SizeUlDiv h4 {
+font-size: 16px;
+line-height: 24px;
+
+}
+
+.Landing__24__SizeUlDiv ul li {
+margin-top: 14px;
+}
+
+.Landing__24__SizeUlDiv {
+background-size: cover;
+padding: 73px 0px 110px 237px;
+margin-top: 51px;
+}
+
+.Landing__24 .Landing__24__SizeImgdivAbs {
+position: absolute;
+width: 196%;
+left: -15px;
+}
+
+.Landing__24__SizeAbs1 {
+bottom: -237px;
+}
+
+.Landing__24__SizeAbs2 {
+bottom: -240px;
+}
+
+}
+
+@media (max-width: 991px) {
+
+.Landing__24 h1 {
+  font-size: 28px;
+  line-height: 43px;
+  padding-top: 93px;
+  padding-bottom: 0px;
+}
+
+.Landing__24__BannerTxt h6 {
+font-size: 16px;
+top: 13px;
+}
+
+.Landing__24 a.bg {
+position: relative;
+padding: 10px 90px;
+}
+
+.Landing__24__BannerTxtAbs3 {
+position: absolute;
+top: 237px;
+left: -10px;
+height: 53px;
+}
+
+.Landing__24__Order2bg {
+background-size: cover;
+padding: 60px 0px 52px 2px;
+margin-top: 81px;
+}
+
+
+.Landing__24__Order3Col2 {
+padding-left: 40px;
+margin-top: 80px;
+}
+
+.Landing__24__FooterDiv {
+  display: block;
+  text-align: center;
+}
+
+.Landing__24__FooterItem2 {
+width: 48%;
+margin: 0 auto;
+}
+
+.Landing__24__FooterItem, .Landing__24__FooterItem2{
+margin-bottom: 50px;
+}
+
+.Landing__24 .Landing__24__SizeImgdivAbs {
+position: absolute;
+width: 100%;
+left: 1px;
+}
+
+.Landing__24__sizeTxtBox {
+text-align: center;
+padding-left: 0px;
+margin-top: 932px;
+}
+
+.Landing__24__SizeUlDiv {
+background-size: cover;
+padding: 73px 0px 50px 100px;
+margin-top: 51px;
+
+}
+
+}
+
+
+@media (max-width: 767px) {
+
+.Landing__24__Reverce{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.Landing__24__BannerTxt{
+  margin-top: 550px;
+  text-align: center;
+}
+
+.Landing__24 h1 {
+  font-size: 28px;
+  line-height: 43px;
+}
+
+.Landing__24__BannerTxtAbs2 {
+position: absolute;
+top: 0px;
+height: 64px;
+left: 0;
+}
+
+.Landing__24__BannerTxtAbs3 {
+position: absolute;
+top: 194px;
+left: 125px;
+height: 53px;
+}
+
+
+.Landing__24__sizeTxtBox {
+text-align: center;
+padding-left: 0px;
+margin-top: 763px;
+}
+
+.Landing__24__SizeAbs1 {
+bottom: -138px;
+width: 100px;
+}
+
+.Landing__24__SizeAbs2 {
+bottom: -130px;
+width: 100px;
+}
+
+.Landing__24__CardImg2{
+padding-bottom: 50px;
+}
+
+.Landing__24__Order2Abs h5 {
+font-size: 28px;
+line-height: 42px;
+color: #000000;
+}
+
+.Landing__24__FooterItem2 {
+width: 65%;
+margin: 0 auto;
+}
+
+
+.Landing__24__FooterItem h4 {
+font-size: 24px;
+line-height: 31px;
+margin-top: 50px;
+}
+
+.Landing__24 .menubar_MenubarContent__jlW_b img {
+height: 85px;
+}
+
+.Landing__24__BannerTxtAbs7 {
+position: absolute;
+top: 6px;
+left: 103px;
+height: 62px;
+}
+
+
+
+}
+
+
+@media (max-width: 575px) {
+.Landing__24 .menubar_MenubarContent__jlW_b img {
+  height: 85px;
+}
+
+.Landing__24__section_gaps{
+  margin-top: 50px;
+}
+
+.Landing__24 h1 {
+font-size: 24px;
+line-height: 36px;
+}
+  
+.Landing__24__sizeTxtBox {
+text-align: center;
+padding-left: 0px;
+margin-top: 543px;
+}
+
+.Landing__24 a.bg {
+position: relative;
+padding: 2px 66px;
+}
+
+
+.Landing__24 h2 {
+font-size: 22px;
+line-height: 37px;
+}
+
+.Landing__24__sizeTxtBox span {
+font-size: 20px;
+line-height: 32px;
+padding: 5px 11px;
+}
+
+.Landing__24__SizeUlDiv {
+background-size: cover;
+padding: 73px 0px 50px 42px;
+margin-top: 51px;
+}
+
+.Landing__24__SizeAbs1 {
+bottom: -138px;
+width: 100px;
+left: 48px;
+}
+
+
+.Landing__24__Order1Abs h4 {
+font-size: 24px;
+line-height: 19px;
+color: #360A31;
+font-weight: 900;
+}
+
+.Landing__24__Order1Abs h5 {
+font-size: 22px;
+line-height: 20px;
+color: #A15F19;
+margin: 20px 0px;
+}
+
+.Landing__24 .Landing__24__Order1 img {
+height: 429px;
+}
+
+.Landing__24__CardImg2, .Landing__24__CardImg4 {
+margin-top: 50px;
+}
+
+.Landing__24__Order2bg h4 {
+font-size: 28px;
+line-height: 38px;
+}
+
+.Landing__24__Order2Abs h4 {
+line-height: 32px;
+margin: 10px 0px;
+}
+
+.Landing__24__Order2Abs h5 {
+font-size: 20px;
+line-height: 42px;
+color: #000000;
+}
+
+.Landing__24 a.bg {
+position: relative;
+padding: 2px 55px;
+}
+
+.Landing__24__FooterItem2 {
+width: 94%;
+margin: 0 auto;
+}
+
+.Landing__24__BannerTxtAbs3 {
+position: absolute;
+top: 180px;
+left: 83px;
+height: 53px;
+}
+
+.Landing__24 p {
+color: #360A31;
+font-size: 16px;
+line-height: 26px;
+}
+
+.Landing__24__Hr {
+width: 100px;
+border-bottom: 1px solid #FFD54C;
+margin: 13px 0px;
+margin: 0 auto;
+}
+
+.Landing__24__FooterItem h4 {
+font-size: 24px;
+line-height: 31px;
+margin-top: 50px;
+padding-bottom: 10px;
+}
+
+.Landing__24__FooterItem h4 {
+font-size: 22px;
+line-height: 31px;
+margin-top: 50px;
+padding-bottom: 10px;
+}
+
+.Landing__24__FooterItem h5 {
+margin-top: 2px;
+font-size: 24px;
+font-weight: 900;
+}
+
+.Landing__24__Order2Abs h4 {
+font-size: 28px;
+line-height: 32px;
+}
+
+.Landing__24 a.bg {
+font-size: 20px;
+line-height: 55px;
+border-bottom: 10px solid #FE8D0E;
+}
+
+.Landing__24 a.bg svg{
+font-size: 24px;
+
+}
+
+
+.Landing__24__BannerTxtAbs7 {
+position: absolute;
+top: 6px;
+left: 53px;
+height: 62px;
+}
+
+
+
+   }
+
+@media (max-width: 450px) {
+
+.Landing__24__BannerTxt {
+  margin-top: 441px;
+  text-align: center;
+}
+
+.Landing__24__BannerTxtAbs3 {
+position: absolute;
+top: 216px;
+left: 47px;
+height: 53px;
+}
+  
+   }
+
+
+@media (max-width: 380px) {
+
+.Landing__24__BannerTxt {
+  margin-top: 390px;
+  text-align: center;
+}
+
+.Landing__24__BannerTxtAbs7 {
+position: absolute;
+top:9px;
+left: 13px;
+height: 52px;
+}
+
+  
+
+
+   }

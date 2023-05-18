@@ -1,0 +1,13 @@
+
+.CustomerReviewContent h2{
+    margin-bottom: 30px;
+    text-align: center;
+} 
+
+.CustomerReviewImg{
+    margin-top: 30px;
+}
+
+.CustomerReviewImg img{
+    width: 100%;
+}

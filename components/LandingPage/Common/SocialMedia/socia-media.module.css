@@ -1,0 +1,35 @@
+
+.SocialMediaContent{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.SocialMediaContent a{
+    line-height: 0;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.SocialMediaContent a svg{
+    font-size: 35px;
+}
+
+.SocialMediaContent a:hover{
+    transform: scale(1.1);
+}
+
+.SocialMediaContent a.FB{
+    color: #2E69DB;
+}
+
+.SocialMediaContent a.INS{
+    color: linear-gradient(180deg, #F65D34 0%, #FF0917 47.92%, #FDCE56 100%);
+}
+
+.SocialMediaContent a.YT{
+    color: #FF0000;
+}
+
+.SocialMediaContent a.TW{
+    color: #33AAFF;
+}

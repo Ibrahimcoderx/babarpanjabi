@@ -1,0 +1,74 @@
+/* CSS Start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container ul,
+.container ol {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: none;
+}
+
+.container a,
+.container button,
+.container span,
+.container p,
+.container ul,
+.container li,
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0;
+    clear: both;
+    color: #000000;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.container :where(input, textarea, button){
+    border: 0;
+    width: 100%;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    box-shadow: none;
+    outline: unset;
+}
+
+

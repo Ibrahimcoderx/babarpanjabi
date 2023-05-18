@@ -1,0 +1,27 @@
+
+/* ------------------------------------------------------------------------------------------- 
+ShippingAddress
+------------------------------------------------------------------------------------------- */
+
+.ShippingAddressItem{
+    text-align: center;
+}
+
+.ShippingAddressItem p{
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.ShippingAddressItem img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+@media (max-width: 1023px) {
+
+    .ShippingAddressItem {
+        margin-bottom: 20px;
+    }
+  
+}
